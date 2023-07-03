@@ -34,19 +34,19 @@ while True:
 
         valor_saque = float(input("Informe o valor de saque?  "))
 
-        excedeu_saldo = valor_saque > saldo
+        #excedeu_saldo = valor_saque > saldo
 
-        excedeu_limite = valor_saque > limite
+        #excedeu_limite = valor_saque > limite
 
-        excedeu_saques = numero_saques >= LIMITE_SAQUES
+        #excedeu_saques = numero_saques >= LIMITE_SAQUES
 
-        if excedeu_saldo:
+        if valor_saque > saldo:
             print("Operação falhou! Você não tem saldo suficiente.")
         
-        elif excedeu_limite:
+        elif valor_saque > limite:
             print("Operação falhou! O valor de saque excede o limite.")
         
-        elif excedeu_saques:
+        elif numero_saques >= LIMITE_SAQUES:
             print("Operação falhou! Número máximo de saques excedido.")
 
         elif valor_saque > 0:
