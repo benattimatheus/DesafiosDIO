@@ -1,3 +1,4 @@
+#TODO Sistema bancário com depósito, saldo e extrato. 
 menu = """
 
 [d] Depositar
