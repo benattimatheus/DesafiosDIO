@@ -1,5 +1,3 @@
-# TODO Criar um sistem bancário com as operações: sacar, depositar e visualizar extrato
-
 menu = """
 
 [d] Depositar
